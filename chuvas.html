@@ -1,0 +1,100 @@
+<svg width="187" height="173" viewBox="0 0 187 173" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="CHUVAS SVG">
+<g id="GRUPO CHUVAS">
+<g id="rain">
+<path id="gota3" d="M67.5 54C64.8588 57.3333 61.1612 64 67.5 64C73.8388 64 70.1412 57.3333 67.5 54Z" fill="#51ACDE" stroke="#2185A5"/>
+<path id="gota1" d="M24.5 36C21.8588 39.3333 18.1612 46 24.5 46C30.8388 46 27.1412 39.3333 24.5 36Z" fill="#51ACDE" stroke="#2185A5"/>
+<path id="gota4" d="M92.008 61.3981C87.9236 66.7559 82.2055 77.4714 92.008 77.4714C101.81 77.4714 96.0923 66.7559 92.008 61.3981Z" fill="#51ACDE" stroke="#2185A5"/>
+<path id="gota7" d="M157 46C153.227 51 147.945 61 157 61C166.055 61 160.773 51 157 46Z" fill="#51ACDE" stroke="#2185A5"/>
+<path id="gota5" d="M111 54C108.736 57 105.567 63 111 63C116.433 63 113.264 57 111 54Z" fill="#51ACDE" stroke="#2185A5"/>
+<path id="gota6" d="M129 46C126.736 49 123.567 55 129 55C134.433 55 131.264 49 129 46Z" fill="#51ACDE" stroke="#2185A5"/>
+<path id="gota2" d="M38 55C35.7361 58 32.5667 64 38 64C43.4333 64 40.2639 58 38 55Z" fill="#51ACDE" stroke="#2185A5"/>
+<path id="nuvems" d="M83.8398 45.4459C84.0646 44.3222 84.1818 43.1661 84.1818 41.9862C84.1818 30.9481 73.9251 22 61.2727 22C51.8668 22 43.7848 26.9453 40.2566 34.0182C37.3984 31.8654 33.6895 30.5655 29.6364 30.5655C20.599 30.5655 13.2727 37.0281 13.2727 45C13.2727 45.4439 13.2954 45.8831 13.3399 46.3168C8.99309 48.1743 6 52.0719 6 56.5793C6 62.8868 11.861 68 19.0909 68H80.9091C88.139 68 94 62.8868 94 56.5793C94 51.1508 89.6587 46.607 83.8398 45.4459Z" fill="#787575" stroke="#787575" stroke-linecap="round"/>
+<path id="nuvemb" d="M167.683 45.7561C168 43.8506 168.165 41.8904 168.165 39.8897C168.165 21.1729 153.713 6 135.884 6C122.63 6 111.242 14.3856 106.271 26.3788C102.243 22.7282 97.017 20.5241 91.3058 20.5241C78.5713 20.5241 68.2479 31.4824 68.2479 45C68.2479 45.7527 68.2799 46.4975 68.3426 47.2329C62.2175 50.3826 58 56.9915 58 64.6345C58 75.3298 66.2587 84 76.4463 84H163.554C173.741 84 182 75.3298 182 64.6345C182 55.4297 175.883 47.7248 167.683 45.7561Z" fill="#828282" stroke="#787575" stroke-linecap="round"/>
+<path id="nuvemm" d="M131.108 57.1652C131.371 55.6714 131.508 54.1348 131.508 52.5664C131.508 37.8942 119.503 26 104.694 26C93.685 26 84.2254 32.5735 80.0958 41.9751C76.7504 39.1134 72.4092 37.3856 67.6653 37.3856C57.0874 37.3856 48.5124 45.9758 48.5124 56.5724C48.5124 57.1625 48.539 57.7464 48.591 58.3228C43.5033 60.7919 40 65.9726 40 71.9641C40 80.3482 46.86 87.1449 55.3223 87.1449H127.678C136.14 87.1449 143 80.3482 143 71.9641C143 64.7484 137.919 58.7085 131.108 57.1652Z" fill="#939393" stroke="#787575" stroke-linecap="round"/>
+</g>
+</g>
+</g>
+</svg>
+
+<style>
+@keyframes nuvem {
+    from{
+        transform: translateX(0px);
+    }
+    to{
+        transform: translateX(5px);
+    }
+
+}
+ 
+#nuvems{
+    animation: nuvem 1s ease-in-out infinite alternate;
+    transform-origin:center;
+    transform-box:fill-box;
+}
+
+#nuvemb{
+    animation: nuvem 2s ease-in-out infinite alternate;
+    transform-origin:center;
+    transform-box:fill-box;
+}
+
+#nuvemm{
+    animation: nuvem 3s ease-in-out infinite alternate;
+    transform-origin:center;
+    transform-box:fill-box;
+}
+
+@keyframes chuva {
+    from{
+        transform: translateY(0px);
+    }
+    to{
+        transform: translateY(500px);
+    }
+}
+
+#gota1{
+    animation: chuva 2s ease-in-out infinite;
+    transform-origin:center;
+    transform-box:fill-box;
+}
+
+#gota2{
+    animation: chuva 3s ease-in-out infinite;
+    transform-origin:center;
+    transform-box:fill-box;
+}
+
+#gota3{
+    animation: chuva 1s ease-in-out infinite;
+    transform-origin:center;
+    transform-box:fill-box;
+}
+
+#gota4{
+    animation: chuva 2.5s ease-in-out infinite;
+    transform-origin:center;
+    transform-box:fill-box;
+}
+
+#gota5{
+    animation: chuva 1.5s ease-in-out infinite;
+    transform-origin:center;
+    transform-box:fill-box;
+}
+
+#gota6{
+    animation: chuva 3.5s ease-in-out infinite;
+    transform-origin:center;
+    transform-box:fill-box;
+}
+
+#gota7{
+    animation: chuva 2s ease-in-out infinite;
+    transform-origin:center;
+    transform-box:fill-box;
+}
+
+</style>
